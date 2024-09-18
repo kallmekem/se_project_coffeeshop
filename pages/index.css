@@ -113,3 +113,7 @@
 .recipes__video-duration {
   margin-left: auto;
 }
+
+iframe {
+  border: none;
+}
