@@ -111,56 +111,54 @@
 }
 
 .reservations {
-  display: flex; /* Use flexbox layout */
-  flex-direction: column; /* Arrange children in a column */
-  align-items: center; /* Center items horizontally */
-  justify-content: flex-start; /* Align items to the start vertically */
-  padding: 120px 0; /* Adjust padding as needed */
+  display: flex;
+  /flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 120px 0;
   background-color: #d9e7ff;
-  position: relative; /* Set position relative to contain absolute elements */
-  padding: 100px 0; /* Adjust padding as needed */
+  position: relative;
+  padding: 100px 0;
   overflow: hidden;
 }
 
 .bubble-circle {
-  position: absolute; /* Position them absolutely within the section */
-  background-color: #1878dc; /* Bubble color */
-  border-radius: 50%; /* Make it circular */
-  opacity: 0.5; /* Slightly transparent */
-  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Add shadow for depth */
+  position: absolute;
+  background-color: #1878dc;
+  border-radius: 50%;
+  opacity: 0.5;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
 }
 
-/* Adjust the size of the bubbles */
 .bubble-circle {
-  width: 80px; /* Set the width */
-  height: 80px; /* Set the height */
+  width: 80px;
+  height: 80px;
 }
 
-/* Position the bubbles at different locations */
 .bubble-circle:nth-child(1) {
-  top: 10%; /* Adjust the position */
-  left: 5%; /* Adjust the position */
-  width: 100px; /* Larger size */
-  height: 100px; /* Larger size */
+  top: 10%;
+  left: 5%;
+  width: 100px;
+  height: 100px;
 }
 
 .bubble-circle:nth-child(2) {
-  top: 30%; /* Adjust the position */
-  right: 10%; /* Adjust the position */
-  width: 60px; /* Smaller size */
-  height: 60px; /* Smaller size */
+  top: 30%;
+  right: 10%;
+  width: 60px;
+  height: 60px;
 }
 
 .bubble-circle:nth-child(3) {
-  bottom: 15%; /* Adjust the position */
-  left: 50%; /* Adjust the position */
-  transform: translateX(-50%); /* Center the bubble */
-  width: 90px; /* Medium size */
-  height: 90px; /* Medium size */
+  bottom: 15%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 90px;
+  height: 90px;
 }
 
 .reservation__title {
-  margin: 100 auto 80px;
+  margin: 100px auto 80px;
   text-align: center;
   font-family: Inter;
   font-style: normal;
