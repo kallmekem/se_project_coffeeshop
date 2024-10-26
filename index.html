@@ -113,9 +113,6 @@
         </section>
         <section id="book" class="reservations">
           <h2 class="reservation__title">Book A Table</h2>
-          <div class="bubble-circle"></div>
-          <div class="bubble-circle"></div>
-          <div class="bubble-circle"></div>
           <form class="reservation__form form">
             <fieldset class="form__fieldset">
               <label for="name-input" class="form__label">
@@ -128,11 +125,11 @@
                   required
                 />
               </label>
-              <label for="name-input" class="form__label">
+              <label for="guests-input" class="form__label">
                 Number of Guests *
                 <input
                   class="form__input"
-                  id="name-input"
+                  id="guests-input"
                   type="number"
                   min="1"
                   max="8"
@@ -140,27 +137,27 @@
                   required
                 />
               </label>
-              <label for="name-input" class="form__label">
+              <label for="date-input" class="form__label">
                 Date & Time *
                 <input
                   class="form__input"
-                  id="name-input"
+                  id="date-input"
                   type="datetime-local"
                   required
                 />
               </label>
-              <label for="name-input" class="form__label">
+              <label for="email-input" class="form__label">
                 Your Email *
                 <input
                   class="form__input"
-                  id="name-input"
+                  id="email-input"
                   type="email"
                   required
                 />
               </label>
             </fieldset>
             <button class="form__button">Book A Table</button>
-            <label for="" class="form__label form__label_type_checkbox">
+            <label for="" class="form__label form_label_type_checkbox">
               <input class="form__checkbox" type="checkbox" required />
               I agree with the terms of use
             </label>
