@@ -112,10 +112,15 @@
 .reservation__title {
   margin: 0 0 80px;
   text-align: center;
+  font-family: Inter;
+  font-size: 44px;
+  font-weight: 500;
+  line-height: 52px;
+  font-style: normal;
 }
 
 .reservation__form {
-  margin: 0 auto; /* Remove margin to prevent pushing */
+  margin: 0 auto;
 }
 
 .form {
@@ -144,7 +149,14 @@
   border: none;
   padding: 20px 0;
   margin-bottom: 32px;
-  color: #1878DCS;
+  background-color: #007bff; /* Blue background color */
+  color: white; /* White text color */
+  font-size: 16px; /* Adjust font size if needed */
+  cursor: pointer; /* Change cursor to pointer on hover */
+}
+
+.form__button:hover {
+  background-color: #0056b3; /* Darker blue on hover */
 }
 
 .form__checkbox {
