@@ -112,8 +112,8 @@
           </ul>
         </section>
         <section id="book" class="reservations">
-          <h2 class="reservation__title">Book A Table</h2>
-          <form class="reservation__form form">
+          <h2 class="reservations__title">Book A Table</h2>
+          <form class="reservations__form form">
             <fieldset class="form__fieldset">
               <label for="name-input" class="form__label">
                 Name *
@@ -157,8 +157,16 @@
               </label>
             </fieldset>
             <button class="form__button">Book A Table</button>
-            <label for="" class="form__label form_label_type_checkbox">
-              <input class="form__checkbox" type="checkbox" required />
+            <label
+              for="terms-checkbox"
+              class="form__label form_label_type_checkbox"
+            >
+              <input
+                class="form__checkbox"
+                id="terms-checkbox"
+                type="checkbox"
+                required
+              />
               I agree with the terms of use
             </label>
           </form>
