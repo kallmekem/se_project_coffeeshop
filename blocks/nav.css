@@ -15,3 +15,14 @@
   padding: 0;
   margin: 0;
 }
+
+.nav__link {
+  color: #000;
+  text-decoration: none;
+  transition: opacity 0.5s;
+  cursor: pointer;
+}
+
+.nav__link:hover {
+  opacity: 50%;
+}
