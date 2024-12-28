@@ -5,6 +5,20 @@
   align-items: center;
 }
 
+.menu::before {
+  content: ""; /* Required for pseudo-elements */
+  position: absolute; /* Position it absolutely */
+  top: 0; /* Align to the top */
+  left: 0; /* Align to the left */
+  right: 0; /* Stretch to the right */
+  bottom: 0; /* Stretch to the bottom */
+  background-image: url(".background_menu.svg"); /* Set the background image */
+  background-size: cover; /* Cover the entire section */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Prevent the image from repeating */
+  opacity: 0.5; /* Adjust opacity for the overlay effect */
+  z-index: 1; /* Ensure it is behind the text */
+}
 .menu__title {
   margin: 0 0 24px;
 }
