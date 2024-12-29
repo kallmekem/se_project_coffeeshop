@@ -2,29 +2,30 @@
   background: linear-gradient(180deg, #0a2850 0%, #071931 100%);
   color: #ffffff;
   text-align: center;
-  padding: 20px;
+  padding: 60px 80px;
   position: relative;
   width: 100%;
 }
 
 .footer__content {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+  display: flex; /* Use flexbox for layout */
+  justify-content: space-between; /* Space between items */
+  align-items: center; /* Center items vertically */
   margin: 0 auto;
-  max-width: 1200px;
+  max-width: 1200px; /* Set a max width for the footer content */
 }
 
 .footer__logo {
-  max-width: 150px;
+  max-width: 150px; /* Adjust logo size */
 }
 
 .footer__column {
-  text-align: left;
+  text-align: right; /* Align text to the right for social media links */
 }
 
 .footer__column-heading {
   font-size: 18px;
+  margin: 0 0;
   margin-bottom: 10px;
 }
 
@@ -44,7 +45,7 @@
 }
 
 .footer__social-link:hover {
-  color: #3f96f3;
+  color: #3f96f3; /* Change color on hover */
 }
 
 .footer__copyright {
