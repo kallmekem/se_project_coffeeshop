@@ -10,8 +10,9 @@
 }
 
 .recipes__subtitles {
-  margin: 0 0 80px;
-  margin-bottom: 80px;
+  max-width: 800px; /* Set your desired max-width */
+  margin: 0 auto; /* Center the subheading */
+  text-align: center; /* Center the text */
 }
 
 .recipes__videos {

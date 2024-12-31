@@ -14,8 +14,10 @@
 }
 
 .menu__subtitle {
-  margin: 0 0 100px;
-  max-width: 780px;
+  max-width: 800px; /* Set your desired max-width */
+  margin: 0 auto; /* Center the subheading */
+  text-align: center; /* Center the text */
+  margin-bottom: 100px;
 }
 
 .menu__cards {
