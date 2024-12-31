@@ -18,6 +18,9 @@
   display: flex;
   justify-content: center;
   gap: 100px;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
 }
 
 .recipes__video-caption {

@@ -19,15 +19,17 @@
 
 .about__content {
   max-width: 660px;
-  margin-top: 119px;
+  margin-top: 19px;
+  display: flex;
   flex-direction: column;
   gap: 20px;
 }
 
-.about_paragraph {
+.about__paragraph {
   font-family: "Noto Serif", "Time New Roman", serif;
   font-size: 20px;
   line-height: 30px;
+  margin: 0;
 }
 .about__circle {
   position: absolute;
