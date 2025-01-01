@@ -9,10 +9,12 @@
   margin-bottom: 24px;
 }
 
-.recipes__subtitles {
-  max-width: 800px; /* Set your desired max-width */
-  margin: 0 auto; /* Center the subheading */
-  text-align: center; /* Center the text */
+.recipes__subtitle {
+  font-family: "Noto Serif", "Times New Roman", serif;
+  font-size: 20px;
+  line-height: 30px;
+  max-width: 438px;
+  margin: 0;
 }
 
 .recipes__videos {
